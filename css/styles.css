@@ -233,10 +233,11 @@ img {
     grid-template-columns: repeat(3,1fr);
 }
 
-.contenido_miembros{
-    font-family: var(--mainFont);
-    font-weight: bold;
-    font-size: 3rem;
+@media (max-width: 768px){
+    .imagenes_miembros{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Blocks */
